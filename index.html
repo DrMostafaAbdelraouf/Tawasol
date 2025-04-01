@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مجموعة مراكز تواصل | د/ مصطفى عبدالرؤوف عزوز</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.facebook.com/share/1X6k1Mo3qg/');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 8rem 0;
+        }
+
+        .hero h2 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            color: #007bff; /* لون أزرق جذاب */
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            color: #ddd; /* لون نص فاتح */
+        }
+
+        .services {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #007bff; /* لون أزرق جذاب */
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .service {
+            padding: 2rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: right;
+            background-color: white; /* خلفية بيضاء للخدمات */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+            transition: transform 0.3s ease; /* تأثير تحويم */
+        }
+
+        .service:hover {
+            transform: translateY(-5px); /* رفع العنصر عند التحويم */
+        }
+
+        .service h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #007bff; /* لون أزرق جذاب */
+        }
+
+        .service p {
+            font-size: 1.1rem;
+        }
+
+        .contact {
+            background-color: #f9f9f9;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: #007bff; /* لون أزرق جذاب */
+        }
+
+        .contact p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact li {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .social-links {
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 1rem;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .map-container {
+            margin-top: 2rem;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
+
+        .whatsapp-link {
+            display: inline-block;
+            margin-top: 2rem;
+            background-color: #25d366; /* لون واتساب */
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://scontent.fcai19-1.fna.fbcdn.net/v/t39.3080-6/410294975_10228303102434520_8355609650085810221_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=24w9z3mQz5sAX-M2f0l&_nc_ht=scontent.fcai19-1.fna&oh=00_AfB7F-B23B_X60bIeH2zX2K6r3n1dG-U3s7rI3zV2j881A&oe=66070624" alt="شعار مجموعة تواصل">
+        <h1>د/ مصطفى عبدالرؤوف عزوز - مجموعة تواصل</h1>
+        <p>دكتوراه وإستشاري اضطرابات التخاطب بمجموعة تواصل والمستشفيات العسكرية</p>
+    </header>
+
+    <section class="hero">
+        <h2>مجموعة مراكز تواصل</h2>
+        <p>لاضطرابات التخاطب كبار وأطفال وتنمية المهارات وتعديل السلوك والتكامل الحسي</p>
+    </section>
+
+    <section class="services">
+        <h2>خدماتنا</h2>
+        <div class="service-grid">
+            <div class="service">
+                <h3>تأهيل اضطرابات التخاطب</h3>
+                <p>علاج وتأهيل جميع اضطرابات التخاطب (اللغة والنطق والكلام والصوت) للكبار والأطفال.</p>
+            </div>
+            <div class="service">
+                <h3>تنمية المهارات</h3>
+                <p>برامج متخصصة لتنمية مهارات الأطفال والكبار.</p>
+            </div>
+            <div class="service">
+                <h3>تعديل السلوك</h3>
+                <p>جلسات لتعديل السلوك وتنمية القدرات الاجتماعية.</p>
+            </div>
+            <div class="service">
+                <h3>التكامل الحسي</h3>
+                <p>أكبر وأحدث غرفة تكامل حسي في الصعيد.</p>
+            </div>
+            <div class="service">
+                <h3>صعوبات وبطئ التعلم</h3>
+                <p>برامج متخصصة لمساعدة الأطفال الذين يعانون من صعوبات وبطئ التعلم.</p>
+            </div>
+            <div class="service">
+                <h3>التأخر الدراسي</h3>
+                <p>برامج متخصصة لمساعدة الأطفال الذين يعانون من التأخر الدراسي.</p>
+            </div>
+            <div class="service">
+                <h3>الإرشاد الأسري والتربوي</h3>
+                <p>جلسات إرشاد أسري وتربوي واستشارات زوجية.</p>
+            </div>
+            <div class="service">
+                <h3>العلاج الوظيفي والحسي</h3>
+                <p>خدمات علاج وظيفي وحسي متكاملة.</p>
+            </div>
+            <div class="service">
+                <h3>الاختبارات والمقاييس</h3>
+                <p>جميع الاختبارات والمقاييس (اختبارات الذكاء/ واللغة/ والتوحد/ وفرط الحركة وتشتت الانتباه/ النفسية والسلوكية/ و....).</p>
+            </div>
+            <div class="service">
+                <h3>تأهيل مابعد فقدان اللغة والكلام</h3>
+                <p>تأهيل مابعد فقدان اللغة والكلام للكبار نتيجة الإصابات الدماغية والجلطات والنزيف بالمخ والزهايمر وغيرها من اضطرابات اللغة والتخاطب للكبار.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>تواصل معنا</h2>
+        <p>للحجز والاستفسار، يرجى التواصل معنا عبر:</p>
+        <ul>
+            <li>المقر الرئيسي بـ قنا: شارع المدارس - بجوار قاعه ميراج - أمام التأمين الصحي.  01001369000</li>
+            <li>فرع دشنا: شارع إمتداد السكة الحديد - عمارة مصلحة الضرائب العقارية بجوار عيادة الدكتورة أسماء عبدالعزيز.  01032909096</li>
+            <li>فرع قوص: شارع النصر - أعلى مطعم فرست بروست.  01032909098</li>
+            <li>فرع نجع حمادي:  01032909091</li>
+        </ul>
+        <div class="social-links">
+            <a href="https://www.facebook.com/Tawasol.Centers/">فيسبوك (مراكز تواصل)</a>
+            <a href="https://www.facebook.com/Dr.Mostafa.Abdelraof">فيسبوك (د/ مصطفى عبدالرؤوف)</a>
+            <a href="https://www.youtube.com/@Dr.MostafaAzoz">يوتيوب</a>
+            <a href="https://instagram.com/tawasol.centers?igshid=MzMyNGUyNmU2YQ==">انستجرام</a>
+            <a href="https://www.threads.net/@tawasol.centers">ثريدز</a>
+            <a href="https://m.me/j/AbbYx3SspYqd46FS/">ماسنجر</a>
+            
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3545.419448831346!2d32.72382171500645!3d26.16104438297651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14496b8c9d92d861%3A0x9d80d226a0907106!2z2YXYt9ix2LPYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2YjYjCDYp9mE2YXYrdix2
